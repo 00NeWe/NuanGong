@@ -1,0 +1,1 @@
+<view><nav wx:if="{{a}}" u-i="56737cee-0" bind:__l="__l" u-p="{{a}}"/><image src="{{b}}" class="logo"></image><view class="settings-list"><view wx:for="{{c}}" wx:for-item="item" wx:key="b" class="settings-item" bindtap="{{item.c}}"><text>{{item.a}}</text><image src="{{d}}" class="arrow-icon"/></view></view></view>

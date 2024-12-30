@@ -1,0 +1,225 @@
+
+.function-page-2.data-v-ea38c1e0 {
+		/* background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 213, 197, 1) 100%); */
+}
+.header.data-v-ea38c1e0 {
+		height: 136px;
+		opacity: 1;
+		background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 213, 197, 1) 100%);
+		padding-top: 85px;
+		padding-left: 121px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		box-sizing: border-box;
+}
+.header text.data-v-ea38c1e0 {
+
+		font-size: 24px;
+		font-weight: 700;
+		letter-spacing: 0px;
+		line-height: 34.75px;
+		color: rgba(0, 0, 0, 1);
+		text-align: left;
+}
+.header image.data-v-ea38c1e0 {
+
+		margin-left: 57px;
+		width: 27.71px;
+		height: 27.71px;
+		opacity: 1;
+}
+.calendar.data-v-ea38c1e0 {
+		display: grid;
+		grid-template-columns: repeat(7, 1fr);
+		gap: 5px;
+		font-size: 12px;
+		font-weight: 400;
+		letter-spacing: 0px;
+		line-height: 17.38px;
+		color: rgba(0, 0, 0, 1);
+		padding-left: 18px;
+		padding-right: 18px;
+}
+.weekday.data-v-ea38c1e0,
+	.day.data-v-ea38c1e0 {
+
+		text-align: center;
+}
+.day[data-index="0"].data-v-ea38c1e0::after,
+	.day[data-index="1"].data-v-ea38c1e0::after {
+		content: '';
+		position: absolute;
+		top: 5px;
+		right: 5px;
+		width: 32px;
+		height: 32px;
+		background-color: rgba(255, 133, 128, 1);
+		border-radius: 50%;
+		opacity: 0.7;
+}
+.day.data-v-ea38c1e0 {
+		position: relative;
+		width: 42px;
+		height: 71px;
+		border-radius: 21px;
+		background: rgba(166, 166, 166, 0.25);
+		margin-top: 7px;
+}
+.day[data-index="3"].data-v-ea38c1e0 {
+		margin-top: 0px;
+		height: 85px;
+}
+.period-info.data-v-ea38c1e0 {
+		background-color: red;
+}
+.period-info.data-v-ea38c1e0,
+	.prediction.data-v-ea38c1e0,
+	.stats.data-v-ea38c1e0 {
+		background-color: white;
+		border-radius: 10px;
+		padding: 15px;
+		margin-top: 20px;
+}
+.days-left.data-v-ea38c1e0 {
+		font-size: 36px;
+		font-weight: bold;
+		color: #FFC0CB;
+		text-align: center;
+}
+button.data-v-ea38c1e0 {
+		background-color: #FFC0CB;
+		border: none;
+		color: white;
+		padding: 5px 15px;
+		border-radius: 15px;
+		margin-top: 10px;
+}
+.stat-item.data-v-ea38c1e0 {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+}
+.circle-container.data-v-ea38c1e0 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 230px;
+		/* 容器高度，可以根据需要调整 */
+}
+.circle.data-v-ea38c1e0 {
+		width: 180px;
+		/* 圆形的直径 */
+		height: 180px;
+		background: conic-gradient(circle, rgba(40, 186, 108, 0.2) 0%, rgba(255, 255, 0, 0.2) 100%);
+		border-radius: 50%;
+		/* 使元素变成圆形 */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		box-shadow: 0 0 60px rgba(208, 243, 222, 1);
+}
+.text-content.data-v-ea38c1e0 {
+		text-align: center;
+		font-family: Arial, sans-serif;
+		color: #333;
+}
+.jl.data-v-ea38c1e0 {
+		font-size: 16px;
+		font-weight: 700;
+		letter-spacing: 0px;
+		line-height: 23.17px;
+		color: rgba(0, 0, 0, 1);
+}
+.highlight.data-v-ea38c1e0 {
+		font-size: 36px;
+		font-weight: 900;
+		letter-spacing: 0px;
+		line-height: 52.13px;
+		color: rgba(0, 0, 0, 1);
+}
+.zq.data-v-ea38c1e0 {
+		font-size: 12px;
+		font-weight: 400;
+		letter-spacing: 0px;
+		line-height: 17.38px;
+		color: rgba(128, 128, 128, 1);
+}
+.period-prediction-card.data-v-ea38c1e0 {
+		box-sizing: border-box;
+		margin-top: 18px;
+		margin-left: 41px;
+		padding: 15px 16px;
+		width: 308px;
+		height: 120px;
+		opacity: 1;
+		border-radius: 20px;
+		background: rgba(255, 255, 255, 1);
+		box-shadow: 0px 5px 5px rgba(166, 166, 166, 0.25);
+}
+.card-header.data-v-ea38c1e0 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20rpx;
+		font-size: 16px;
+		font-weight: 700;
+		letter-spacing: 0px;
+		line-height: 23.17px;
+		color: rgba(0, 0, 0, 1);
+}
+
+	/* .title {
+  font-size: 32rpx;
+  font-weight: 500;
+  color: #333333;
+} */
+.date-section.data-v-ea38c1e0 {
+
+		margin-bottom: 30rpx;
+		font-size: 12px;
+		font-weight: 400;
+		letter-spacing: 0px;
+		line-height: 17.38px;
+		color: rgba(0, 0, 0, 1);
+}
+.date-range.data-v-ea38c1e0 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 28rpx;
+		color: #333333;
+}
+.duration.data-v-ea38c1e0 {
+		display: flex;
+		align-items: center;
+		color: #666666;
+}
+.arrow.data-v-ea38c1e0 {
+		margin-left: 10rpx;
+		color: #999999;
+}
+.reminder-section1.data-v-ea38c1e0 {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 12px;
+		font-weight: 400;
+		letter-spacing: 0px;
+		line-height: 17.38px;
+		color: rgba(0, 0, 0, 1);
+}
+.reminder-switch.data-v-ea38c1e0 {
+		transform: scale(0.9);
+}
+.reminder-section2.data-v-ea38c1e0 {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		font-size: 16px;
+		font-weight: 900;
+		letter-spacing: 0px;
+		line-height: 23.17px;
+		color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "mr-content": "../../components/MrContent"
+  }
+}

@@ -1,0 +1,159 @@
+{
+	"pages": [{
+			"path": "pages/Connection/Connection",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/FunctionPage/FunctionPage2",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/FunctionPage/FunctionPage3",
+			"style": {
+			"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/splash/splash",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/phone",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/password",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/reset",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Profile/Profile",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ConnectDevice/ConnectDevice",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/riliye/riliye",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/MenstrualRecord/MenstrualRecord",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Edit/Edit",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/SettingProfile/SettingProfile",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/reminders/reminders",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/PwdReset/PwdReset",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/About/About",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Setting/Setting",
+			"style": {
+			"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ManageFr/ManageFr",
+			"style": {
+			"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/Manage/Manage",
+			"style" : 
+			{
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/zhinan/zhinan",
+			"style" : 
+			{
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+
+	    "navigationBarTitleText": "custom"  // 全局设置导航栏标题为 "custom"
+	  },
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#000000",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",  
+		"height": "83px",
+		"iconSize": 24,
+		"list": [{
+				"pagePath": "pages/Connection/Connection",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/selected-home.png"
+			},
+			{
+				"pagePath": "pages/FunctionPage/FunctionPage2",
+				"iconPath": "static/report.png",
+				"selectedIconPath": "static/selected-report.png"
+			},
+			{
+				"pagePath": "pages/FunctionPage/FunctionPage3",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/selected-my.png"
+			}
+		]
+	}
+}

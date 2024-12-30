@@ -1,0 +1,30 @@
+
+.settings-list {
+  display: flex;
+  flex-direction: column;
+ width: 323px;
+ height: 304px;
+ opacity: 1;
+ border-radius: 20px;
+ background: rgba(255, 255, 255, 1);
+ box-shadow: 0px 3px 5px 1px rgba(255, 213, 197, 1);
+ margin-left: 31px;
+ margin-top: 36px;
+}
+.settings-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 22px;
+  height: 60px;
+}
+.arrow-icon {
+  width: 20px;
+  height: 20px;
+}
+.logo{
+	width: 278px;
+	height: 193px;
+	margin-top: 40px;
+	margin-left: 56px;
+}

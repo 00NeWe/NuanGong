@@ -1,0 +1,113 @@
+
+.settings-page.data-v-4c73b8ec {
+  background-color: #F5F5F5;
+  min-height: 100vh;
+  position: relative;
+}
+.settings-container.data-v-4c73b8ec {
+  transition: filter 0.3s ease;
+}
+.mask-blur.data-v-4c73b8ec {
+  filter: blur(3px);
+}
+.menu-item.data-v-4c73b8ec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 342px;
+  height: 45px;
+  opacity: 1;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  padding: 11px 19px 14px 19px;
+  box-sizing: border-box;
+}
+.item-title.data-v-4c73b8ec {
+  font-size: 16px;
+  color: #333;
+}
+.item-right.data-v-4c73b8ec {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.item-value.data-v-4c73b8ec {
+  font-size: 16px;
+  color: #666;
+}
+.arrow.data-v-4c73b8ec {
+  font-size: 16px;
+  color: #999;
+}
+.confirm-button.data-v-4c73b8ec {
+  width: 342px;
+  height: 56px;
+  opacity: 1;
+  border-radius: 15px;
+  background: rgba(255, 213, 197, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 125px 7px 125px;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 16px;
+}
+.confirm-button.data-v-4c73b8ec:active {
+  opacity: 0.9;
+}
+.picker-overlay.data-v-4c73b8ec {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.picker-mask.data-v-4c73b8ec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.picker-content.data-v-4c73b8ec {
+  position: relative;
+  background-color: #FFFFFF;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 20px 0;
+  z-index: 1001;
+}
+.picker-title.data-v-4c73b8ec {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.picker-view.data-v-4c73b8ec {
+  width: 100%;
+  height: 200px;
+}
+.picker-item.data-v-4c73b8ec {
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+.save-button.data-v-4c73b8ec {
+  margin: 20px 15px 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: rgba(255, 213, 197, 1);
+  border-radius: 25px;
+  color: #333;
+  font-size: 16px;
+}

@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "content": "../../components/Content",
+    "connected-content": "../../components/ConnectedContent"
+  }
+}

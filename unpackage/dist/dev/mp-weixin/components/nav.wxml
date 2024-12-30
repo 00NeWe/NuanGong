@@ -1,0 +1,1 @@
+<view class="nav-bar"><view class="back-btn" bindtap="{{b}}"><image class="back-arrow" src="{{a}}" mode="aspectFit"/></view><view class="auto-wi"><text class="title" style="font-size:20px">{{c}}</text></view></view>

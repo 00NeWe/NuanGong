@@ -1,0 +1,1 @@
+<view class="splash-container data-v-b5d3b004"><image class="logo data-v-b5d3b004" src="{{a}}" mode="aspectFit"/><button class="enter-btn data-v-b5d3b004" bindtap="{{b}}">进入</button></view>

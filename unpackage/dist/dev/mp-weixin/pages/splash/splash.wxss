@@ -1,0 +1,29 @@
+
+.splash-container.data-v-b5d3b004 {
+  position: relative;
+  height: 100vh; 
+  background-color: #ffffff;
+}
+.logo.data-v-b5d3b004 {
+  position: absolute;
+  left: 54px;
+  top: 151px;
+  width: 278px;
+  height: 193px;
+  opacity: 1;
+}
+.enter-btn.data-v-b5d3b004 {
+ position: absolute;
+ left: 47px;
+ top: 595px;
+ width: 297px;
+ height: 63px;
+ opacity: 1;
+ border-radius: 15px;
+ background: rgba(255, 213, 197, 1);
+ text-align: center;   
+ line-height: 63px; 
+ font-size: 24px;
+ font-weight: 400;
+ color: rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "period-calendar": "../../components/PeriodCalendar",
+    "usage-stats": "../../components/UsageStats"
+  }
+}

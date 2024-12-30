@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/Connection/Connection",
+    "pages/FunctionPage/FunctionPage2",
+    "pages/FunctionPage/FunctionPage3",
+    "pages/splash/splash",
+    "pages/login/index",
+    "pages/login/phone",
+    "pages/login/password",
+    "pages/login/reset",
+    "pages/Profile/Profile",
+    "pages/ConnectDevice/ConnectDevice",
+    "pages/riliye/riliye",
+    "pages/MenstrualRecord/MenstrualRecord",
+    "pages/Edit/Edit",
+    "pages/SettingProfile/SettingProfile",
+    "pages/reminders/reminders",
+    "pages/PwdReset/PwdReset",
+    "pages/About/About",
+    "pages/Setting/Setting",
+    "pages/ManageFr/ManageFr",
+    "pages/Manage/Manage",
+    "pages/zhinan/zhinan"
+  ],
+  "window": {
+    "navigationBarTitleText": "custom"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "iconSize": 24,
+    "list": [
+      {
+        "pagePath": "pages/Connection/Connection",
+        "iconPath": "static/home.png",
+        "selectedIconPath": "static/selected-home.png"
+      },
+      {
+        "pagePath": "pages/FunctionPage/FunctionPage2",
+        "iconPath": "static/report.png",
+        "selectedIconPath": "static/selected-report.png"
+      },
+      {
+        "pagePath": "pages/FunctionPage/FunctionPage3",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/selected-my.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
